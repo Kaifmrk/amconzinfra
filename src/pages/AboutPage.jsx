@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { Icon, Eyebrow, Btn } from "../components/ui/index";
 import { useReveal } from "../hooks/index";
+import SEO from "../components/SEO";
 
 // ─── Slide Images ─────────────────────────────────────────────────────────────
 // Rename your images to match these, or update the filenames below
@@ -385,6 +386,13 @@ const Values = () => {
 
 const AboutPage = () => (
   <main className="page">
+    <SEO
+      title="About Amconz Infra Services | Facility Management Expert"
+      description="Discover our 20-year legacy of trust and excellence in integrated facility management across Punjab."
+      url="/about"
+    >
+      <meta name="keywords" content="about Amconz, facility management company, engineering services, integrated solutions" />
+    </SEO>
     <PageHero />
     <Story />
     <Values />

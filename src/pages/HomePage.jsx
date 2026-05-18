@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Icon, StatCounter, Eyebrow, Btn, Chip } from "../components/ui/index";
 import { useReveal } from "../hooks/index";
 import { SERVICES } from "../data/index";
+import SEO from "../components/SEO";
 
 /* ── HERO ─────────────────────────────────────────────────── */
 const Hero = () => {
@@ -478,6 +479,23 @@ const CTA = () => {
 
 const HomePage = () => (
   <main className="page">
+    <SEO
+      title="Amconz Infra Services"
+      description="North Region's trusted partner for integrated facility management."
+      url="/"
+    >
+      {/* Extra tags sirf HomePage ke liye */}
+      <meta property="og:image" content="https://amconzinfra.com/favicon.png" />
+      <meta name="keywords" content="facility management punjab, electrical engineering, integrated services" />
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Amconz Infra Services",
+        "description": "Integrated facility management and engineering services in Punjab",
+        "url": "https://amconzinfra.com",
+        "areaServed": "Punjab, India"
+      })}</script>
+    </SEO>
     <Hero />
     <ServicesSection />
     <WhyUs />
