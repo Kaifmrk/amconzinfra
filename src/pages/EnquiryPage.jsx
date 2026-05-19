@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { Icon, Eyebrow, Btn } from "../components/ui/index";
+import SEO from "../components/SEO";
 
 const APPS_SCRIPT_URL =
   "https://script.google.com/macros/s/AKfycbyr4CSelNBXT8hup_LvNfYW3iMlijVEBe-ypbgUb1aKfB-O5Ov-r3WnOnX7H8uvreA_/exec";
@@ -490,6 +491,13 @@ const EnquiryPage = () => {
 
   return (
     <main className="page">
+      <SEO
+  title="Request a Quote | Free Facility Management Consultation"
+  description="Get a free quote for facility management services. Fill our enquiry form for customized solutions, competitive pricing, and expert consultation within 24 hours."
+  url="/enquiry"
+>
+  <meta name="keywords" content="facility management quote, request quote online, free consultation, facility management enquiry form, get estimate, facility services pricing, facility management quotation, service request form, facility management proposal, RFQ facility management, cost estimation, competitive pricing, customized solutions, instant quote, 24 hour response, facility management tender, project enquiry" />
+</SEO>
       {/* ── Hero ────────────────────────────────────────────────────────── */}
       <section className="hero-bg pt-32 pb-16 relative overflow-hidden">
         <div className="hero-grid" />

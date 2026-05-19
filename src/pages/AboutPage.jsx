@@ -4,49 +4,38 @@ import { Icon, Eyebrow, Btn } from "../components/ui/index";
 import { useReveal } from "../hooks/index";
 import SEO from "../components/SEO";
 
-// ─── Slide Images ─────────────────────────────────────────────────────────────
-// Rename your images to match these, or update the filenames below
-import slide1 from "../assets/images/slide1.png"; // Operations
-import slide2 from "../assets/images/slide2.png"; // Horticulture
-import slide3 from "../assets/images/slide3.png"; // Engineering
-import slide4 from "../assets/images/slide4.png"; // Soft Services
-import slide5 from "../assets/images/slide5.png"; // Construction & Interior
-
-// ─── Slider Data ──────────────────────────────────────────────────────────────
 
 const SLIDES = [
   {
     tag: "Operations",
     title: "Precision Facility\nManagement",
     desc: "Integrated systems across all verticals — electrical, mechanical & soft services.",
-    img: slide1,
+    img: "https://res.cloudinary.com/dymsipwwy/image/upload/f_avif,q_auto,w_900/v1779166247/slide1_vaorua.png",
   },
   {
     tag: "Horticulture",
     title: "Lush Green Space\nManagement",
     desc: "Professional landscaping and horticulture services for every environment.",
-    img: slide2,
+    img: "https://res.cloudinary.com/dymsipwwy/image/upload/f_avif,q_auto,w_900/v1779166249/slide2_oq9q0s.png",
   },
   {
     tag: "Engineering",
     title: "Electrical & Mechanical\nExcellence",
     desc: "OHS-compliant electrical and mechanical services with verified expertise.",
-    img: slide3,
+    img: "https://res.cloudinary.com/dymsipwwy/image/upload/f_avif,q_auto,w_900/v1779166248/slide3_lrn9km.png",
   },
   {
     tag: "Soft Services",
     title: "Hospitality & Soft\nServices",
     desc: "End-to-end soft service management for residential, commercial & hospitality sectors.",
-    img: slide4,
+    img: "https://res.cloudinary.com/dymsipwwy/image/upload/f_avif,q_auto,w_900/v1779166256/slide4_tawx2e.png",
   },
   {
-  tag: "Construction",
-  title: "Construction &\nInterior",
-  desc: "Comprehensive construction and interior solutions tailored for residential, commercial & industrial spaces.",
-  img: slide5,
-},
-
-  
+    tag: "Construction",
+    title: "Construction &\nInterior",
+    desc: "Comprehensive construction and interior solutions tailored for residential, commercial & industrial spaces.",
+    img: "https://res.cloudinary.com/dymsipwwy/image/upload/f_avif,q_auto,w_900/v1779166258/slide5_sntn41.png",
+  },
 ];
 
 // ─── Hero Slider ──────────────────────────────────────────────────────────────
@@ -386,13 +375,34 @@ const Values = () => {
 
 const AboutPage = () => (
   <main className="page">
-    <SEO
-      title="About Amconz Infra Services | Facility Management Expert"
-      description="Discover our 20-year legacy of trust and excellence in integrated facility management across Punjab."
-      url="/about"
-    >
-      <meta name="keywords" content="about Amconz, facility management company, engineering services, integrated solutions" />
-    </SEO>
+   <main className="page">
+  <SEO
+    title="About | Amconz Infra Services"
+    description="Discover our 20-year legacy of trust and excellence in integrated facility management across Punjab."
+    url="/about"
+  >
+    <meta
+      name="keywords"
+      content="
+        facility management,
+        facility management company,
+        integrated facility services,
+        engineering services,
+        electrical maintenance,
+        mechanical maintenance,
+        horticulture services,
+        soft services,
+        commercial facility management,
+        industrial maintenance,
+        construction services,
+        interior solutions,
+        Amconz Infra Services,
+        Punjab facility management,
+        Ludhiana engineering company
+      "
+    />
+  </SEO>
+</main>
     <PageHero />
     <Story />
     <Values />

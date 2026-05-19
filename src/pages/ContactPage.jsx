@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Icon, Eyebrow, Btn } from "../components/ui/index";
+import SEO from "../components/SEO";
 
 /* ── Apps Script URL ─────────────────────────────────────────────────────── */
 
@@ -517,6 +518,14 @@ const ContactSection = () => {
 /* ── Page ────────────────────────────────────────────────────────────────── */
 const ContactPage = () => (
   <main className="page">
+
+    <SEO
+  title="Contact Us | Get in Touch with Amconz Infra Services"
+  description="Contact Amconz Infra Services for facility management solutions. Call +91-8699159961 or email info@amconzinfra.com. Get free consultation and quotes."
+  url="/contact"
+>
+  <meta name="keywords" content="contact facility management company, get quote, facility management enquiry, contact Amconz, facility management consultation, request quote India, facility management contact number, engineering services contact, infrastructure management enquiry, facility management office address, customer support, business enquiry, service request, schedule consultation, facility management RFP, vendor registration" />
+</SEO>
     <PageHero />
     <ContactSection />
   </main>

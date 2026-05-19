@@ -2,6 +2,7 @@ import React from "react";
 import { Icon, Eyebrow } from "../components/ui/index";
 import { useReveal } from "../hooks/index";
 import { CLIENTS } from "../data/index";
+import SEO from "../components/SEO";
 
 const PageHero = () => (
   <section className="hero-bg pt-32 pb-14 relative overflow-hidden">
@@ -251,6 +252,14 @@ const ClientLogos = () => {
 
 const ClientsPage = () => (
   <main className="page">
+
+    <SEO
+  title="Our Clients | Trusted by Leading Companies Across India"
+  description="Amconz Infra Services proudly serves 200+ clients including Fortune 500 companies, IT parks, hospitals, hotels, and manufacturing units across India."
+  url="/clients"
+>
+  <meta name="keywords" content="facility management clients, trusted clients, corporate clients India, Fortune 500 clients, IT park facility management, hospital facility management, hotel facility management, manufacturing facility management, commercial clients, industrial clients, testimonials, client reviews, case studies, satisfied clients, client portfolio, banking sector clients, healthcare facility management, retail facility management" />
+</SEO>
     <PageHero />
     <ClientLogos />
   </main>

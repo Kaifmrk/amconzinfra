@@ -479,23 +479,109 @@ const CTA = () => {
 
 const HomePage = () => (
   <main className="page">
-    <SEO
-      title="Amconz Infra Services"
-      description="North Region's trusted partner for integrated facility management."
-      url="/"
-    >
-      {/* Extra tags sirf HomePage ke liye */}
-      <meta property="og:image" content="https://amconzinfra.com/favicon.png" />
-      <meta name="keywords" content="facility management punjab, electrical engineering, integrated services" />
-      <script type="application/ld+json">{JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Amconz Infra Services",
-        "description": "Integrated facility management and engineering services in Punjab",
-        "url": "https://amconzinfra.com",
-        "areaServed": "Punjab, India"
-      })}</script>
-    </SEO>
+   <SEO
+  title="Home | Amconz Infra Services"
+  description="Leading facility management company in India offering integrated engineering solutions, electrical works, housekeeping, construction, and maintenance services."
+  url="/"
+>
+  {/* Primary SEO */}
+  <meta
+    name="keywords"
+    content="
+      facility management services India,
+      integrated facility management,
+      engineering solutions,
+      HVAC services,
+      electrical maintenance,
+      mechanical services,
+      housekeeping services,
+      construction services,
+      property maintenance,
+      landscaping services,
+      commercial facility management,
+      industrial maintenance,
+      infrastructure services,
+      MEP services,
+      Amconz Infra Services,
+      facility management Punjab,
+      Ludhiana engineering company
+    "
+  />
+
+  {/* Open Graph */}
+  <meta
+    property="og:title"
+    content="Amconz Infra Services"
+  />
+
+  <meta
+    property="og:description"
+    content="Trusted integrated facility management and engineering solutions across India."
+  />
+
+  <meta
+    property="og:image"
+    content="https://amconzinfra.com/og-image.jpg"
+  />
+
+  <meta property="og:type" content="website" />
+
+  <meta property="og:url" content="https://amconzinfra.com" />
+
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <meta
+    name="twitter:title"
+    content="Amconz Infra Services"
+  />
+
+  <meta
+    name="twitter:description"
+    content="Leading facility management company in India"
+  />
+
+  <meta
+    name="twitter:image"
+    content="https://amconzinfra.com/og-image.jpg"
+  />
+
+  {/* Local Business Schema */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+
+      name: "Amconz Infra Services",
+
+      description:
+        "Integrated facility management and engineering services in India",
+
+      url: "https://amconzinfra.com",
+
+      logo: "https://amconzinfra.com/logo.png",
+
+      image: "https://amconzinfra.com/og-image.jpg",
+
+      areaServed: {
+        "@type": "Country",
+        name: "India",
+      },
+
+      serviceType: [
+        "Facility Management",
+        "HVAC Services",
+        "Electrical Engineering",
+        "Mechanical Services",
+        "Housekeeping",
+        "Construction",
+        "Interior Solutions",
+        "Landscaping",
+      ],
+    })}
+  </script>
+</SEO>
+
     <Hero />
     <ServicesSection />
     <WhyUs />
