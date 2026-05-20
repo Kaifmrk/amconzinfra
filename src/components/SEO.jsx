@@ -1,7 +1,8 @@
 import { Helmet } from 'react-helmet-async';
 
 const SEO = ({ title, description, url, children }) => {
-  const baseUrl = 'https://yourdomain.com';
+  // Updated to your actual production domain
+  const baseUrl = 'https://amconzinfra.com';
   const fullUrl = `${baseUrl}${url}`;
 
   return (
