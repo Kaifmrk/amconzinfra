@@ -71,8 +71,8 @@ const Footer = () => {
                   href: "https://www.linkedin.com/in/amconz-infra-131b8a40b",
                 },
                 { icon: "Instagram", href: "https://www.instagram.com/amconz.infra/" },
-                { icon: "Facebook", href: "#" },
-                { icon: "Youtube", href: "#" },
+                { icon: "Facebook", href: "https://www.facebook.com/profile.php?id=61590398120487" },
+                // { icon: "Youtube", href: "#" },
               ].map((s) => (
                 <a
                   key={s.icon}
