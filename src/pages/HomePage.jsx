@@ -22,7 +22,7 @@ const Hero = () => {
       />
 
       <div className="container-wide relative z-10 pb-7 pt-10 w-full">
-        <div className="grid lg:grid-cols-[1fr_440px] gap-16 items-center">
+        <div className="grid md:grid-cols-[1fr_440px] gap-16 items-center">
           {/* Left */}
           <div>
             <div
@@ -79,7 +79,8 @@ const Hero = () => {
           </div>
 
           {/* Right — dashboard card */}
-          <div className="hidden lg:block relative h-[480px]">
+          <div className="hidden md:block relative h-[480px]">
+
             <div className="absolute inset-0 rounded-2xl p-6 overflow-hidden animate-float-slow flex flex-col justify-between hero-card">
               {/* Header */}
               <div className="flex items-center justify-between mb-4">

@@ -33,7 +33,7 @@ const PageHero = () => (
         </div>
 
         {/* Visual Element */}
-        <div className="relative hidden lg:block">
+        <div className="relative hidden md:block">
           <div className="relative w-full h-[420px]">
             {/* Central Services Hub */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">

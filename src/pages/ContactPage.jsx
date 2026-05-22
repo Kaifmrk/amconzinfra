@@ -39,7 +39,7 @@ const PageHero = () => (
         </div>
 
         {/* Right Visual */}
-        <div className="relative hidden lg:block">
+        <div className="relative hidden md:block">
           <div className="relative w-full h-[400px]">
             {/* Center Icon */}
             <div
@@ -287,7 +287,7 @@ const ContactSection = () => {
                 </p>
 
                 <a
-                  href="https://www.google.com/maps/search/Aman+Nagar+Ludhiana+Punjab"
+                  href="https://maps.app.goo.gl/etNTi5rKXmm2UCWN7"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-xs font-medium px-3 py-1.5 rounded-md transition-colors

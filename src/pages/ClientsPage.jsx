@@ -38,7 +38,7 @@ const PageHero = () => (
         </div>
 
         {/* Visual Element */}
-        <div className="relative hidden lg:block">
+        <div className="relative hidden md:block">
           <div className="relative w-full h-[400px]">
             
         

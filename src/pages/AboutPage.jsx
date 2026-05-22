@@ -269,7 +269,7 @@ const PageHero = () => (
           </p>
         </div>
 
-        <div className="hidden lg:block">
+        <div className="hidden md:block">
           <HeroSlider />
         </div>
       </div>
