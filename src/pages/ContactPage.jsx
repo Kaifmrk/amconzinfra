@@ -283,7 +283,7 @@ const ContactSection = () => {
                 <Icon name="MapPin" size={32} style={{ color: "#C8963E" }} />
 
                 <p className="text-sm text-[#5A6A7A] dark:text-[#8B9BB0]">
-                  Aman Nagar, Ludhiana, Punjab
+                  Gurnam Nagar, Ludhiana, Punjab
                 </p>
 
                 <a
