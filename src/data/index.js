@@ -232,7 +232,7 @@ export const GALLERY = [
     title: "HT Panel Installation",
     icon: "Zap",
     bg: "from-violet-500 to-purple-700",
-    image: "https://res.cloudinary.com/dymsipwwy/image/upload/v1790411617/gallery/xflxkyztva8gymbecrdz.jpg",
+    image: "https://res.cloudinary.com/dymsipwwy/image/upload/v1792077746/5_amr3ux.jpg",
   },
 
 {
