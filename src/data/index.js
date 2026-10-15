@@ -231,74 +231,87 @@ export const GALLERY = [
     cat: "Electrical",
     title: "HT Panel Installation",
     icon: "Zap",
-    bg: "from-amber-400 to-orange-500",
+    bg: "from-violet-500 to-purple-700",
+    image: "https://res.cloudinary.com/dymsipwwy/image/upload/v1790411617/gallery/xflxkyztva8gymbecrdz.jpg",
   },
+
+{
+    cat: "Water Systems",
+    title: "STP Plant Operations",
+    icon: "Droplets",
+    bg: "from-cyan-400 to-blue-600",
+    image: "https://res.cloudinary.com/dymsipwwy/image/upload/v1792077745/1_mszm6e.jpg"
+  },
+
   {
     cat: "Facility",
     title: "Integrated Facility Management",
     icon: "Layers",
     bg: "from-violet-500 to-purple-700",
+    image: "https://res.cloudinary.com/dymsipwwy/image/upload/v1792077746/3_jbdhkq.jpg"
   },
-  {
-    cat: "Landscaping",
-    title: "Corporate Garden Design",
-    icon: "Leaf",
-    bg: "from-emerald-400 to-green-600",
-  },
-  {
-    cat: "Fire Safety",
-    title: "Fire Detection System",
-    icon: "ShieldCheck",
-    bg: "from-red-400 to-rose-600",
-  },
-  {
-    cat: "Water Systems",
-    title: "STP Plant Operations",
-    icon: "Droplets",
-    bg: "from-cyan-400 to-blue-600",
-  },
-  {
-    cat: "Interior",
-    title: "Office Interior Fit-Out",
-    icon: "Home",
-    bg: "from-indigo-400 to-violet-600",
-  },
-  {
+
+{
     cat: "Electrical",
-    title: "Industrial Load Management",
+    title: "HT Panel Installation",
     icon: "Zap",
-    bg: "from-yellow-400 to-amber-600",
+    bg: "from-violet-500 to-purple-700",
+    image: "https://res.cloudinary.com/dymsipwwy/image/upload/v1792077745/4_du9lfa.jpg",
   },
-  {
-    cat: "Facility",
-    title: "Mall Facility Services",
-    icon: "Building2",
-    bg: "from-blue-400 to-indigo-600",
-  },
-  {
-    cat: "Landscaping",
-    title: "Residential Horticulture",
-    icon: "Leaf",
-    bg: "from-green-400 to-teal-600",
-  },
-  {
-    cat: "Fire Safety",
-    title: "Suppression System Maintenance",
-    icon: "ShieldCheck",
-    bg: "from-orange-400 to-red-600",
-  },
-  {
-    cat: "Water Systems",
-    title: "Rain Harvesting Project",
-    icon: "CloudRain",
-    bg: "from-sky-400 to-cyan-600",
-  },
-  {
-    cat: "Interior",
-    title: "Home Renovation Works",
-    icon: "Home",
-    bg: "from-purple-400 to-pink-600",
-  },
+
+
+
+  // {
+  //   cat: "Landscaping",
+  //   title: "Corporate Garden Design",
+  //   icon: "Leaf",
+  //   bg: "from-emerald-400 to-green-600",
+  // },
+  // {
+  //   cat: "Fire Safety",
+  //   title: "Fire Detection System",
+  //   icon: "ShieldCheck",
+  //   bg: "from-red-400 to-rose-600",
+  // },
+  
+  // {
+  //   cat: "Interior",
+  //   title: "Office Interior Fit-Out",
+  //   icon: "Home",
+  //   bg: "from-indigo-400 to-violet-600",
+  // },
+  // {
+  //   cat: "Electrical",
+  //   title: "Industrial Load Management",
+  //   icon: "Zap",
+  //   bg: "from-yellow-400 to-amber-600",
+  // },
+  // {
+  //   cat: "Facility",
+  //   title: "Mall Facility Services",
+  //   icon: "Building2",
+  //   bg: "from-blue-400 to-indigo-600",
+  // },
+  // {
+  //   cat: "Landscaping",
+  //   title: "Residential Horticulture",
+  //   icon: "Leaf",
+  //   bg: "from-green-400 to-teal-600",
+  // },
+  // {
+  //   cat: "Fire Safety",
+  //   title: "Suppression System Maintenance",
+  //   icon: "ShieldCheck",
+  //   bg: "from-orange-400 to-red-600",
+  // },
+  // {
+  
+  // {
+  //   cat: "Interior",
+  //   title: "Home Renovation Works",
+  //   icon: "Home",
+  //   bg: "from-purple-400 to-pink-600",
+  // },
 ];
 
 export const GALLERY_CATS = [
@@ -315,7 +328,7 @@ export const NAV_LINKS = [
   { id: "home", label: "Home" },
   { id: "about", label: "About" },
   { id: "services", label: "Services" },
+    { id: "gallery", label: "Gallery" },
   { id: "clients", label: "Clients" },
-  // { id: "gallery", label: "Gallery" },
   { id: "contact", label: "Contact" },
 ];

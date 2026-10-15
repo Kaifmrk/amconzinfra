@@ -9,7 +9,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ServicesPage from "./pages/ServicesPage";
 import ClientsPage from "./pages/ClientsPage";
-// import GalleryPage from "./pages/GalleryPage";
+import GalleryPage from "./pages/GalleryPage";
 import ContactPage from "./pages/ContactPage";
 import EnquiryPage from "./pages/EnquiryPage";
 
@@ -29,7 +29,7 @@ const App = () => {
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/services" element={<ServicesPage />} />
                 <Route path="/clients" element={<ClientsPage />} />
-                {/* <Route path="/gallery" element={<GalleryPage />} /> */}
+                <Route path="/gallery" element={<GalleryPage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/enquiry" element={<EnquiryPage />} />
                 <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
